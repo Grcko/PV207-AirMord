@@ -5,28 +5,62 @@ package example.airmord;
  */
 
 @javax.persistence.Entity
-public class Complaint implements java.io.Serializable {
+public class Complaint implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "COMPLAINT_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "COMPLAINT_ID_GENERATOR", sequenceName = "COMPLAINT_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "COMPLAINT_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "COMPLAINT_ID_GENERATOR", sequenceName = "COMPLAINT_ID_SEQ")
+   private java.lang.Long id;
 
-    public Complaint() {
-    }
-    
-    public Complaint(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Email")
+   private java.lang.String email;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Text")
+   private java.lang.String text;
+
+   public Complaint()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getEmail()
+   {
+      return this.email;
+   }
+
+   public void setEmail(java.lang.String email)
+   {
+      this.email = email;
+   }
+
+   public java.lang.String getText()
+   {
+      return this.text;
+   }
+
+   public void setText(java.lang.String text)
+   {
+      this.text = text;
+   }
+
+   public Complaint(java.lang.Long id, java.lang.String email,
+         java.lang.String text)
+   {
+      this.id = id;
+      this.email = email;
+      this.text = text;
+   }
 
 }
