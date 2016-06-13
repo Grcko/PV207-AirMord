@@ -21,9 +21,6 @@ public class Complaint implements java.io.Serializable
    @org.kie.api.definition.type.Label("Text")
    private java.lang.String text;
 
-   @org.kie.api.definition.type.Label("Additional information request text")
-   private java.lang.String comment;
-
    public Complaint()
    {
    }
@@ -58,23 +55,12 @@ public class Complaint implements java.io.Serializable
       this.text = text;
    }
 
-   public java.lang.String getComment()
-   {
-      return this.comment;
-   }
-
-   public void setComment(java.lang.String comment)
-   {
-      this.comment = comment;
-   }
-
    public Complaint(java.lang.Long id, java.lang.String email,
-         java.lang.String text, java.lang.String comment)
+         java.lang.String text)
    {
       this.id = id;
       this.email = email;
       this.text = text;
-      this.comment = comment;
    }
 
 }
