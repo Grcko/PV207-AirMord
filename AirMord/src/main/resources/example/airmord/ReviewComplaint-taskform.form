@@ -69,8 +69,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="t_complaint/comment"/>
-<property name="outputBinding" value="t_complaint/comment"/>
+<property name="outputBinding" value="t_reply"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="t_complaint" name="#E9E371" type="dataModelerEntry" outId="t_complaint" value="example.airmord.Complaint" id="p_complaint"/>
