@@ -21,9 +21,6 @@ public class Complaint implements java.io.Serializable
    @org.kie.api.definition.type.Label("Text")
    private java.lang.String text;
 
-   @org.kie.api.definition.type.Label("Is complaint based on technical issue?")
-   private java.lang.Boolean technicalIssue;
-
    @org.kie.api.definition.type.Label("Additional information request text")
    private java.lang.String comment;
 
@@ -61,16 +58,6 @@ public class Complaint implements java.io.Serializable
       this.text = text;
    }
 
-   public java.lang.Boolean getTechnicalIssue()
-   {
-      return this.technicalIssue;
-   }
-
-   public void setTechnicalIssue(java.lang.Boolean technicalIssue)
-   {
-      this.technicalIssue = technicalIssue;
-   }
-
    public java.lang.String getComment()
    {
       return this.comment;
@@ -82,13 +69,11 @@ public class Complaint implements java.io.Serializable
    }
 
    public Complaint(java.lang.Long id, java.lang.String email,
-         java.lang.String text, java.lang.Boolean technicalIssue,
-         java.lang.String comment)
+         java.lang.String text, java.lang.String comment)
    {
       this.id = id;
       this.email = email;
       this.text = text;
-      this.technicalIssue = technicalIssue;
       this.comment = comment;
    }
 
