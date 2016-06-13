@@ -15,11 +15,20 @@ public class Complaint implements java.io.Serializable
    @javax.persistence.SequenceGenerator(name = "COMPLAINT_ID_GENERATOR", sequenceName = "COMPLAINT_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Email")
+   @org.kie.api.definition.type.Label("Email")
    private java.lang.String email;
 
-   @org.kie.api.definition.type.Label(value = "Text")
+   @org.kie.api.definition.type.Label("Text")
    private java.lang.String text;
+
+   @org.kie.api.definition.type.Label(value = "Is complaint clear?")
+   private java.lang.Boolean clear;
+
+   @org.kie.api.definition.type.Label(value = "Is complaint valid?")
+   private java.lang.Boolean valid;
+
+   @org.kie.api.definition.type.Label(value = "Is complaint based on technical issue?")
+   private java.lang.Boolean technicalIssue;
 
    public Complaint()
    {
@@ -55,12 +64,46 @@ public class Complaint implements java.io.Serializable
       this.text = text;
    }
 
+   public java.lang.Boolean getClear()
+   {
+      return this.clear;
+   }
+
+   public void setClear(java.lang.Boolean clear)
+   {
+      this.clear = clear;
+   }
+
+   public java.lang.Boolean getValid()
+   {
+      return this.valid;
+   }
+
+   public void setValid(java.lang.Boolean valid)
+   {
+      this.valid = valid;
+   }
+
+   public java.lang.Boolean getTechnicalIssue()
+   {
+      return this.technicalIssue;
+   }
+
+   public void setTechnicalIssue(java.lang.Boolean technicalIssue)
+   {
+      this.technicalIssue = technicalIssue;
+   }
+
    public Complaint(java.lang.Long id, java.lang.String email,
-         java.lang.String text)
+         java.lang.String text, java.lang.Boolean clear,
+         java.lang.Boolean valid, java.lang.Boolean technicalIssue)
    {
       this.id = id;
       this.email = email;
       this.text = text;
+      this.clear = clear;
+      this.valid = valid;
+      this.technicalIssue = technicalIssue;
    }
 
 }
