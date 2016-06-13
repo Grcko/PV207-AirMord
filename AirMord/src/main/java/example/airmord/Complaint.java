@@ -24,13 +24,10 @@ public class Complaint implements java.io.Serializable
    @org.kie.api.definition.type.Label("Is complaint clear?")
    private java.lang.Boolean clear;
 
-   @org.kie.api.definition.type.Label("Is complaint valid?")
-   private java.lang.Boolean valid;
-
    @org.kie.api.definition.type.Label("Is complaint based on technical issue?")
    private java.lang.Boolean technicalIssue;
 
-   @org.kie.api.definition.type.Label(value = "Additional information request text")
+   @org.kie.api.definition.type.Label("Additional information request text")
    private java.lang.String comment;
 
    public Complaint()
@@ -77,16 +74,6 @@ public class Complaint implements java.io.Serializable
       this.clear = clear;
    }
 
-   public java.lang.Boolean getValid()
-   {
-      return this.valid;
-   }
-
-   public void setValid(java.lang.Boolean valid)
-   {
-      this.valid = valid;
-   }
-
    public java.lang.Boolean getTechnicalIssue()
    {
       return this.technicalIssue;
@@ -109,14 +96,12 @@ public class Complaint implements java.io.Serializable
 
    public Complaint(java.lang.Long id, java.lang.String email,
          java.lang.String text, java.lang.Boolean clear,
-         java.lang.Boolean valid, java.lang.Boolean technicalIssue,
-         java.lang.String comment)
+         java.lang.Boolean technicalIssue, java.lang.String comment)
    {
       this.id = id;
       this.email = email;
       this.text = text;
       this.clear = clear;
-      this.valid = valid;
       this.technicalIssue = technicalIssue;
       this.comment = comment;
    }
