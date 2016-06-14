@@ -5,28 +5,60 @@ package example.airmord;
  */
 
 @javax.persistence.Entity
-public class Ticket implements java.io.Serializable {
+public class Ticket implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "TICKET_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "TICKET_ID_GENERATOR", sequenceName = "TICKET_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "TICKET_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "TICKET_ID_GENERATOR", sequenceName = "TICKET_ID_SEQ")
+   private java.lang.Long id;
 
-    public Ticket() {
-    }
-    
-    public Ticket(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String text;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String complaintText;
+
+   public Ticket()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getText()
+   {
+      return this.text;
+   }
+
+   public void setText(java.lang.String text)
+   {
+      this.text = text;
+   }
+
+   public java.lang.String getComplaintText()
+   {
+      return this.complaintText;
+   }
+
+   public void setComplaintText(java.lang.String complaintText)
+   {
+      this.complaintText = complaintText;
+   }
+
+   public Ticket(java.lang.Long id, java.lang.String text,
+         java.lang.String complaintText)
+   {
+      this.id = id;
+      this.text = text;
+      this.complaintText = complaintText;
+   }
 
 }
