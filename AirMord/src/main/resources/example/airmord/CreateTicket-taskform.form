@@ -13,7 +13,7 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="t_complaint/text"/>
-<property name="outputBinding" value="t_ticket/complaintText"/>
+<property name="outputBinding" value="t_ticket/complaint"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="p_ticket_text" type="InputTextArea" id="1473670228">
