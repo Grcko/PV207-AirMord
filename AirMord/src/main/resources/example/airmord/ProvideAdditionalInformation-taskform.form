@@ -1,0 +1,31 @@
+
+<form id="146531921">
+<property name="name" value="ProvideAdditionalInformation-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="p_complaint_email" type="InputText" id="1007130471">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (p_complaint)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="t_complaint/email"/>
+<property name="outputBinding" value="t_complaint/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="p_complaint_id" type="InputTextLong" id="520568773">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (p_complaint)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="t_complaint/id"/>
+<property name="outputBinding" value="t_complaint/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="2" name="p_complaint_text" type="InputText" id="1738964196">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;text (p_complaint)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="t_complaint/text"/>
+<property name="outputBinding" value="t_complaint/text"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="t_complaint" name="#E9E371" type="dataModelerEntry" outId="t_complaint" value="example.airmord.Complaint" id="p_complaint"/>
+</form>
