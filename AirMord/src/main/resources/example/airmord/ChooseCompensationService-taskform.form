@@ -1,0 +1,14 @@
+
+<form id="261570492">
+<property name="name" value="ChooseCompensationService-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="p_compensation" type="InputText" id="589601220">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;t_compensation (p_compensation)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="t_compensation"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="t_compensation" value="java.lang.String" id="p_compensation"/>
+</form>
