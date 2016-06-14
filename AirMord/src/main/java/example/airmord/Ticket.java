@@ -17,7 +17,7 @@ public class Ticket implements java.io.Serializable
 
    private java.lang.String text;
 
-   private java.lang.String complaintText;
+   private java.lang.String complaint;
 
    public Ticket()
    {
@@ -43,22 +43,22 @@ public class Ticket implements java.io.Serializable
       this.text = text;
    }
 
-   public java.lang.String getComplaintText()
+   public java.lang.String getComplaint()
    {
-      return this.complaintText;
+      return this.complaint;
    }
 
-   public void setComplaintText(java.lang.String complaintText)
+   public void setComplaint(java.lang.String complaint)
    {
-      this.complaintText = complaintText;
+      this.complaint = complaint;
    }
 
    public Ticket(java.lang.Long id, java.lang.String text,
-         java.lang.String complaintText)
+         java.lang.String complaint)
    {
       this.id = id;
       this.text = text;
-      this.complaintText = complaintText;
+      this.complaint = complaint;
    }
 
 }
