@@ -17,8 +17,6 @@ public class Ticket implements java.io.Serializable
 
    private java.lang.String text;
 
-   private java.lang.String complaint;
-
    public Ticket()
    {
    }
@@ -43,22 +41,10 @@ public class Ticket implements java.io.Serializable
       this.text = text;
    }
 
-   public java.lang.String getComplaint()
-   {
-      return this.complaint;
-   }
-
-   public void setComplaint(java.lang.String complaint)
-   {
-      this.complaint = complaint;
-   }
-
-   public Ticket(java.lang.Long id, java.lang.String text,
-         java.lang.String complaint)
+   public Ticket(java.lang.Long id, java.lang.String text)
    {
       this.id = id;
       this.text = text;
-      this.complaint = complaint;
    }
 
 }
