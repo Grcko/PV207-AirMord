@@ -1,0 +1,31 @@
+
+<form id="217418506">
+<property name="name" value="EnterAddressTask-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="695681608">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;Delivery info&lt;/h2&gt; quot;quot;dequot;,quot;&lt;h2&gt;Delivery info&lt;/h2&gt; quot;quot;enquot;,quot;&lt;h2&gt;Delivery info&lt;/h2&gt; quot;quot;esquot;,quot;&lt;h2&gt;Delivery info&lt;/h2&gt; quot;quot;frquot;,quot;&lt;h2&gt;Delivery info&lt;/h2&gt; quot;quot;jaquot;,quot;&lt;h2&gt;Delivery info&lt;/h2&gt; quot;quot;ptquot;,quot;&lt;h2&gt;Delivery info&lt;/h2&gt; quot;quot;zhquot;,quot;&lt;h2&gt;Delivery info&lt;/h2&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="p_Account_deliveryAddress" type="InputTextArea" id="269083338">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Delivery address:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="t_AccountData/deliveryAddress"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="p_billing_address" type="CheckBox" id="371171682">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Billing address is samequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="t_billing_address"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="t_AcccountData" name="#E9E371" type="dataModelerEntry" outId="t_AcccountData" value="airmord.UserAccountObject" id="p_Account"/>
+</form>
