@@ -30,7 +30,7 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("localhost", "25", "", "")</identifier>
+            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("smtp.mailgun.org", "25", "postmaster@sandbox0a979989df9b4b83b84c099045b2ed9a.mailgun.org", "79ad3ceeb2dbfa8bdff76730c7f8031c")</identifier>
             <parameters/>
             <name>Email</name>
         </work-item-handler>
