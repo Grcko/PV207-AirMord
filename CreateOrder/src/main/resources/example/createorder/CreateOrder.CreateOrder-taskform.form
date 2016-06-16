@@ -1,0 +1,97 @@
+
+<form id="1029892042">
+<property name="name" value="CreateOrder.CreateOrder-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="9" name="p_valid_login" type="InputText" id="1739614016">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;p_valid_login (p_valid_login)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_valid_login"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="p_login_email" type="InputText" id="950316646">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;p_login_email (p_login_email)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_login_email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="p_want_edit" type="CheckBox" id="1730794475">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;p_want_edit (p_want_edit)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_want_edit"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="p_order_length" type="InputTextInteger" id="2125453176">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;length (p_order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_order/length"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="10" name="p_valid_order" type="InputText" id="931463378">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;p_valid_order (p_valid_order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_valid_order"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="p_order_weight" type="InputTextDouble" id="1318683456">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;weight (p_order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_order/weight"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="7" name="p_order_width" type="InputTextInteger" id="1189120425">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;width (p_order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_order/width"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="p_credentials_password" type="InputText" id="1704157688">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;password (p_credentials)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_credentials/password"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="p_order_deliveryAddress" type="InputText" id="2111904586">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;deliveryAddress (p_order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_order/deliveryAddress"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="p_rest_verify_login_url" type="InputText" id="360973768">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;p_rest_verify_login_url (p_rest_verify_login_url)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_rest_verify_login_url"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="p_credentials_email" type="InputText" id="354819803">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (p_credentials)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_credentials/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="p_order_height" type="InputTextInteger" id="1237742155">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;height (p_order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="p_order/height"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="p_credentials" value="example.createorder.Credentials" id="p_credentials"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="p_login_email" value="java.lang.String" id="p_login_email"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="p_order" value="example.createorder.Order" id="p_order"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="p_rest_verify_login_url" value="java.lang.String" id="p_rest_verify_login_url"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="p_valid_login" value="java.lang.String" id="p_valid_login"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="p_valid_order" value="java.lang.String" id="p_valid_order"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="p_want_edit" value="java.lang.Boolean" id="p_want_edit"/>
+</form>

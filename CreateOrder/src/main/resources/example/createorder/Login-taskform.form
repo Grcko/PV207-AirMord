@@ -1,0 +1,53 @@
+
+<form id="1854377490">
+<property name="name" value="Login-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="p_credentials_email" type="InputTextEmail" id="1762018389">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;E-mailquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="t_credentials/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="p_credentials_password" type="InputText" id="1553310487">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Passwordquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="true"/>
+<property name="outputBinding" value="t_credentials/password"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="register" type="CheckBox" id="1328185616">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Check if you want to create registrationquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="391272827">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;lt;h2&amp;gt;Enter your credentials&amp;lt;/h2&amp;gt;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&amp;lt;h2&amp;gt;Enter your credentials&amp;lt;/h2&amp;gt;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&amp;lt;h2&amp;gt;Enter your credentials&amp;lt;/h2&amp;gt;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&amp;lt;h2&amp;gt;Enter your credentials&amp;lt;/h2&amp;gt;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&amp;lt;h2&amp;gt;Enter your credentials&amp;lt;/h2&amp;gt;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&amp;lt;h2&amp;gt;Enter your credentials&amp;lt;/h2&amp;gt;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&amp;lt;h2&amp;gt;Enter your credentials&amp;lt;/h2&amp;gt;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&amp;lt;h2&amp;gt;Enter your credentials&amp;lt;/h2&amp;gt;&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="t_credentials" value="example.createorder.Credentials" id="p_credentials"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="t_credentials.email" value="java.lang.String" id="p_login_email"/>
+</form>
